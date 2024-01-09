@@ -1,0 +1,11 @@
+/home/lucas/Code/Minecraft/Settings/bin/Debug/net8.0/Settings.deps.json
+/home/lucas/Code/Minecraft/Settings/bin/Debug/net8.0/Settings.dll
+/home/lucas/Code/Minecraft/Settings/bin/Debug/net8.0/Settings.pdb
+/home/lucas/Code/Minecraft/Settings/obj/Debug/net8.0/Settings.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucas/Code/Minecraft/Settings/obj/Debug/net8.0/Settings.AssemblyInfoInputs.cache
+/home/lucas/Code/Minecraft/Settings/obj/Debug/net8.0/Settings.AssemblyInfo.cs
+/home/lucas/Code/Minecraft/Settings/obj/Debug/net8.0/Settings.csproj.CoreCompileInputs.cache
+/home/lucas/Code/Minecraft/Settings/obj/Debug/net8.0/Settings.dll
+/home/lucas/Code/Minecraft/Settings/obj/Debug/net8.0/refint/Settings.dll
+/home/lucas/Code/Minecraft/Settings/obj/Debug/net8.0/Settings.pdb
+/home/lucas/Code/Minecraft/Settings/obj/Debug/net8.0/ref/Settings.dll

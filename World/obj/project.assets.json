@@ -1,0 +1,189 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Blocks/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Items": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Blocks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blocks.dll": {}
+        }
+      },
+      "Items/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Items.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Items.dll": {}
+        }
+      },
+      "Managers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Players": "1.0.0",
+          "Settings": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Managers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Managers.dll": {}
+        }
+      },
+      "Players/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Util": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Players.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Players.dll": {}
+        }
+      },
+      "Settings/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Settings.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Settings.dll": {}
+        }
+      },
+      "Util/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Settings": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Util.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Util.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Blocks/1.0.0": {
+      "type": "project",
+      "path": "../Blocks/Blocks.csproj",
+      "msbuildProject": "../Blocks/Blocks.csproj"
+    },
+    "Items/1.0.0": {
+      "type": "project",
+      "path": "../Items/Items.csproj",
+      "msbuildProject": "../Items/Items.csproj"
+    },
+    "Managers/1.0.0": {
+      "type": "project",
+      "path": "../Managers/Managers.csproj",
+      "msbuildProject": "../Managers/Managers.csproj"
+    },
+    "Players/1.0.0": {
+      "type": "project",
+      "path": "../Players/Players.csproj",
+      "msbuildProject": "../Players/Players.csproj"
+    },
+    "Settings/1.0.0": {
+      "type": "project",
+      "path": "../Settings/Settings.csproj",
+      "msbuildProject": "../Settings/Settings.csproj"
+    },
+    "Util/1.0.0": {
+      "type": "project",
+      "path": "../Util/Util.csproj",
+      "msbuildProject": "../Util/Util.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Blocks >= 1.0.0",
+      "Managers >= 1.0.0",
+      "Settings >= 1.0.0",
+      "Util >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/lucas/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/lucas/Code/Minecraft/World/World.csproj",
+      "projectName": "World",
+      "projectPath": "/home/lucas/Code/Minecraft/World/World.csproj",
+      "packagesPath": "/home/lucas/.nuget/packages/",
+      "outputPath": "/home/lucas/Code/Minecraft/World/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/lucas/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/home/lucas/Code/Minecraft/Blocks/Blocks.csproj": {
+              "projectPath": "/home/lucas/Code/Minecraft/Blocks/Blocks.csproj"
+            },
+            "/home/lucas/Code/Minecraft/Managers/Managers.csproj": {
+              "projectPath": "/home/lucas/Code/Minecraft/Managers/Managers.csproj"
+            },
+            "/home/lucas/Code/Minecraft/Settings/Settings.csproj": {
+              "projectPath": "/home/lucas/Code/Minecraft/Settings/Settings.csproj"
+            },
+            "/home/lucas/Code/Minecraft/Util/Util.csproj": {
+              "projectPath": "/home/lucas/Code/Minecraft/Util/Util.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

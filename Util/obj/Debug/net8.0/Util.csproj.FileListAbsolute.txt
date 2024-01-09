@@ -1,0 +1,15 @@
+/home/lucas/Code/Minecraft/Util/bin/Debug/net8.0/Util.deps.json
+/home/lucas/Code/Minecraft/Util/bin/Debug/net8.0/Util.dll
+/home/lucas/Code/Minecraft/Util/bin/Debug/net8.0/Util.pdb
+/home/lucas/Code/Minecraft/Util/bin/Debug/net8.0/Settings.dll
+/home/lucas/Code/Minecraft/Util/bin/Debug/net8.0/Settings.pdb
+/home/lucas/Code/Minecraft/Util/obj/Debug/net8.0/Util.csproj.AssemblyReference.cache
+/home/lucas/Code/Minecraft/Util/obj/Debug/net8.0/Util.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucas/Code/Minecraft/Util/obj/Debug/net8.0/Util.AssemblyInfoInputs.cache
+/home/lucas/Code/Minecraft/Util/obj/Debug/net8.0/Util.AssemblyInfo.cs
+/home/lucas/Code/Minecraft/Util/obj/Debug/net8.0/Util.csproj.CoreCompileInputs.cache
+/home/lucas/Code/Minecraft/Util/obj/Debug/net8.0/Util.csproj.CopyComplete
+/home/lucas/Code/Minecraft/Util/obj/Debug/net8.0/Util.dll
+/home/lucas/Code/Minecraft/Util/obj/Debug/net8.0/refint/Util.dll
+/home/lucas/Code/Minecraft/Util/obj/Debug/net8.0/Util.pdb
+/home/lucas/Code/Minecraft/Util/obj/Debug/net8.0/ref/Util.dll
