@@ -1,36 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "/home/lucas/Code/Minecraft/Managers/Managers.csproj": {}
+    "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Managers\\Managers.csproj": {}
   },
   "projects": {
-    "/home/lucas/Code/Minecraft/Managers/Managers.csproj": {
+    "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Managers\\Managers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucas/Code/Minecraft/Managers/Managers.csproj",
+        "projectUniqueName": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Managers\\Managers.csproj",
         "projectName": "Managers",
-        "projectPath": "/home/lucas/Code/Minecraft/Managers/Managers.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/Code/Minecraft/Managers/obj/",
+        "projectPath": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Managers\\Managers.csproj",
+        "packagesPath": "C:\\Users\\loran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Managers\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\loran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/lucas/Code/Minecraft/Players/Players.csproj": {
-                "projectPath": "/home/lucas/Code/Minecraft/Players/Players.csproj"
+              "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Players\\Players.csproj": {
+                "projectPath": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Players\\Players.csproj"
               },
-              "/home/lucas/Code/Minecraft/Settings/Settings.csproj": {
-                "projectPath": "/home/lucas/Code/Minecraft/Settings/Settings.csproj"
+              "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Settings\\Settings.csproj": {
+                "projectPath": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Settings\\Settings.csproj"
               }
             }
           }
@@ -60,34 +67,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/lucas/Code/Minecraft/Players/Players.csproj": {
+    "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Players\\Players.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucas/Code/Minecraft/Players/Players.csproj",
+        "projectUniqueName": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Players\\Players.csproj",
         "projectName": "Players",
-        "projectPath": "/home/lucas/Code/Minecraft/Players/Players.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/Code/Minecraft/Players/obj/",
+        "projectPath": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Players\\Players.csproj",
+        "packagesPath": "C:\\Users\\loran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Players\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\loran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/lucas/Code/Minecraft/Util/Util.csproj": {
-                "projectPath": "/home/lucas/Code/Minecraft/Util/Util.csproj"
+              "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Util\\Util.csproj": {
+                "projectPath": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Util\\Util.csproj"
               }
             }
           }
@@ -117,26 +131,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/lucas/Code/Minecraft/Settings/Settings.csproj": {
+    "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Settings\\Settings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucas/Code/Minecraft/Settings/Settings.csproj",
+        "projectUniqueName": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Settings\\Settings.csproj",
         "projectName": "Settings",
-        "projectPath": "/home/lucas/Code/Minecraft/Settings/Settings.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/Code/Minecraft/Settings/obj/",
+        "projectPath": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Settings\\Settings.csproj",
+        "packagesPath": "C:\\Users\\loran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Settings\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\loran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -170,34 +191,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/lucas/Code/Minecraft/Util/Util.csproj": {
+    "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Util\\Util.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucas/Code/Minecraft/Util/Util.csproj",
+        "projectUniqueName": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Util\\Util.csproj",
         "projectName": "Util",
-        "projectPath": "/home/lucas/Code/Minecraft/Util/Util.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/Code/Minecraft/Util/obj/",
+        "projectPath": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Util\\Util.csproj",
+        "packagesPath": "C:\\Users\\loran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Util\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\loran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/lucas/Code/Minecraft/Settings/Settings.csproj": {
-                "projectPath": "/home/lucas/Code/Minecraft/Settings/Settings.csproj"
+              "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Settings\\Settings.csproj": {
+                "projectPath": "C:\\Users\\loran\\Source\\Repos\\mc4loran\\Settings\\Settings.csproj"
               }
             }
           }
@@ -227,7 +255,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

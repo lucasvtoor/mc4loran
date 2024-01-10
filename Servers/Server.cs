@@ -1,7 +1,8 @@
-﻿using System.Net;
-using System.Net.Sockets;
-using Injectors;
+﻿using Injectors;
+using Managers;
 using Packets;
+using System.Net;
+using System.Net.Sockets;
 using Util.Logging;
 
 namespace Servers;
@@ -17,14 +18,14 @@ public class Server
 
     public Server(Injector injector)
     {
-        Logger = new LoggerFactory((LogLevel)injector.SettingsManager.LogLevelSetting.Value,
-            (LogLocation)injector.SettingsManager.LogLocationSetting.Value).GetLogger<Server>();
+        Logger = new LoggerFactory((LogLevel)injector.Get<SettingsManager>().LogLevelSetting.Value,
+            (LogLocation)injector.Get<SettingsManager>().LogLocationSetting.Value).GetLogger<Server>();
         UdpPacketListener = new();
         TcpPacketListener = new();
-        TcpListener = new TcpListener(IPAddress.Parse((string)injector.SettingsManager.HostNameSetting.Value),
-            injector.SettingsManager.PortSetting.Value);
-        UdpClient = new UdpClient((string)injector.SettingsManager.HostNameSetting.Value,
-            injector.SettingsManager.PortSetting.Value);
+        TcpListener = new TcpListener(IPAddress.Parse((string)injector.Get<SettingsManager>().HostNameSetting.Value),
+            injector.Get<SettingsManager>().PortSetting.Value);
+        UdpClient = new UdpClient((string)injector.Get<SettingsManager>().HostNameSetting.Value,
+            injector.Get<SettingsManager>().PortSetting.Value);
         Injector = new();
         var tcpThread = new Thread(ListenTcp);
         var udpThread = new Thread(ListenUdp);

@@ -5,22 +5,26 @@ namespace Injectors;
 
 public class Injector
 {
-    public SettingsManager SettingsManager;
-    public PlayerManager PlayerManager;
-    public ServerManager ServerManager;
-    public LoggerFactory LoggerFactory;
-
-    public static InjectorFactory CreateDefaultInjector()
+    public T Get<T>()
+    {
+        return (T)Inner[typeof(T)];
+    }
+    public Dictionary<Type, object> Inner = new Dictionary<Type, object>();
+    public Injector()
     {
         var loggerFactory = new LoggerFactory(LogLevel.Info, LogLocation.Console);
+        Inner[typeof(SettingsManager)] = new SettingsManager();
+        Inner[typeof(LoggerFactory)] = loggerFactory;
+        Inner[typeof(PlayerManager)] = new PlayerManager(loggerFactory);
+        Inner[typeof(ServerManager)] = new ServerManager();
+    }
+    public static InjectorFactory CreateDefaultInjector()
+    {
         return new InjectorFactory()
         {
             Injector = new()
             {
-                SettingsManager = new SettingsManager(),
-                LoggerFactory = loggerFactory,
-                PlayerManager = new PlayerManager(loggerFactory),
-                ServerManager = new ServerManager()
+
             }
         };
     }
@@ -28,30 +32,6 @@ public class Injector
     public class InjectorFactory
     {
         public Injector Injector;
-
-        private InjectorFactory AddSettingsManager(Func<SettingsManager, SettingsManager> manager)
-        {
-            Injector.SettingsManager = manager.Invoke(new SettingsManager());
-            return this;
-        }
-
-        private InjectorFactory AddPlayerManager(Func<PlayerManager, PlayerManager> manager)
-        {
-            Injector.PlayerManager = manager.Invoke(new PlayerManager(Injector.LoggerFactory));
-            return this;
-        }
-
-        private InjectorFactory AddServerManager(Func<ServerManager, ServerManager> manager)
-        {
-            Injector.ServerManager = manager.Invoke(new ServerManager());
-            return this;
-        }
-
-        public InjectorFactory Configure(Func<Injector, Injector> func)
-        {
-            Injector = func.Invoke(Injector);
-            return this;
-        }
 
         public Injector Build()
         {
